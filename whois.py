@@ -8,3 +8,5 @@ def get_whois_org(target):
         print("Country: " + w.country)
     except Exception as e:
         print("[-] Unable to retrieve whois data for " + str(target))
+
+
