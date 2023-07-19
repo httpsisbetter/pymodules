@@ -26,3 +26,6 @@ def reverse_lookup(target):
         print("[+] " + str(target) + ": " + str(hostname[0]))
     except socket.error:
         print("[-] " + target + ": " + "Unable to resolve")
+
+
+
