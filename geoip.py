@@ -12,3 +12,4 @@ def geoiplookup(target):
         "country": response.get("country_name")
     }
     print(location_data)
+
