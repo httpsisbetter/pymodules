@@ -10,3 +10,4 @@ def urllib_curl(target):
         print("[-] Unable to curl " + str(target) + ": " + str(error.reason))
     except ValueError as error:
         print("[-] Unable to curl " + str(target) + ": " + str(error))
+        
