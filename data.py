@@ -4,3 +4,4 @@ def make_list_file(target_file):
         for line in f:
             target_list.append(line.strip())
     return target_list
+    
